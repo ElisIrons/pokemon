@@ -38,21 +38,20 @@ function clearCharactersAndFinishGame() {
   charmander.style.display = "none";
   pikachu.style.display = "none";
   zubat.style.display = "none";
-
+  musicControl.style.display = "none";
   reset.style.display = "block";
   count.textContent = "";
 }
 
 function finishGame() {
   if (findCharmander && findPikachu && findZubat) {
-    clearCharactersAndFinishGame();
-
     const timeOut = setTimeout(() => {
       game.style.backgroundImage = "url('assets/winner.jpg')";
+      clearCharactersAndFinishGame();
       clearInterval(interval);
       clearTimeout(timeOut);
       audio.pause();
-    }, 800);
+    }, 500);
   }
 }
 
@@ -64,6 +63,7 @@ const interval = setInterval(() => {
 
     clearCharactersAndFinishGame();
     clearInterval(interval);
+    audio.pause();
     return;
   }
 
