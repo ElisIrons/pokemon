@@ -7,5 +7,6 @@ Feito através do curso da Udemy com o professor Daniel Lopes.
 
 
 
-https://github.com/ElisIrons/pokemon/assets/86434261/be2f00e7-da80-407d-baed-c94c5c6f24c0
 
+
+![gif-pokemon](https://github.com/ElisIrons/pokemon/assets/86434261/ce4a3199-cdd9-4990-bf39-75d1cfa1247f)
