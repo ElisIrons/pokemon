@@ -6,13 +6,14 @@ body {
   background-color: #000;
   position: relative;
   justify-content: center;
-  margin: 0;
 }
 
 h1 {
   color: white;
-  margin-bottom: 32px;
-  font-size: 80px;
+  font-size: 30px;
+  top: 10px;
+  left: 1400px;
+  position: absolute;
 }
 
 .game {
@@ -21,11 +22,10 @@ h1 {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 1280px;
-  height: 720px;
+  width: 76rem;
+  height: 45.2rem;
   position: relative;
-  margin-bottom: 100px;
-  margin-top: -50px;
+  margin: 6px 0;
 }
 
 .character {
@@ -35,8 +35,8 @@ h1 {
 
 .music-control {
   width: 50px;
-  top: 48px;
-  right: 48px;
+  top: 5px;
+  right: 25px;
   cursor: pointer;
   position: absolute;
 }
@@ -77,4 +77,23 @@ h1 {
   display: none;
   right: 90px;
   top: 550px;
+}
+
+@media (min-width: 1600px) {
+  .game {
+    margin: 115px 0 5px 0;
+  }
+
+  h1 {
+    font-size: 50px;
+    left: 1650px;
+    top: 30px;
+  }
+
+  .music-control {
+    top: 35px;
+    right: 90px;
+    cursor: pointer;
+    position: absolute;
+  }
 }
