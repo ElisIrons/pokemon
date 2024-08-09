@@ -1,5 +1,9 @@
-Jogo simples de procurar Pokémon em uma tela com HTML, CSS e JS.<br>
-Feito através do curso da Udemy com o professor Daniel Lopes.
+<h1>Jogo simples de procurar Pokémon em uma tela com HTML, CSS e JavaScript<br> </h1>
+Feito através do curso da Udemy com o professor Daniel Lopes.<br>
+
+<br>Exclusivamente para desktops.
+
+Acesse e em 30 segundos de aventura tente capturar os 03 pokémons escondidos ao som da melhor abertura: https://elisirons.github.io/pokemon/
 
 
 
